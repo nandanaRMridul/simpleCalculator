@@ -1,7 +1,7 @@
 .calc-body{
   width: 300px;
   margin: auto;
-  min-height: 400px;
+  min-height: 350px;
   box-shadow: 0 8px 50px 7px rgba(0, 0, 0, 0.23);
   background-color: black;
   border-radius: 15px;
@@ -19,7 +19,8 @@
 
 .calc-button-row{
   display: table;
-  margin-left: 30px;
+  margin: 0 10px;
+  margin-left: 20px;
 }
 
 .calc-button-row button{
@@ -30,5 +31,16 @@
 
 .calc-button-row button{
   display: table-cell;
-  width:15%;
+  width:17%;
+  padding: 0 6px;
+  margin: 8px 10px;
+  background-color: rgb(208, 243, 255);
+}
+
+.calc-button-row .opt, .ac{
+  background-color: rgb(101, 216, 255);
+}
+
+.calc-button-row .delete{
+  width: 92%;
 }
